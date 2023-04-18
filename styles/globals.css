@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth !important;
+}
+
+/* hide scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+.text_color {
+    color: #a8328f;
+}
+
+.bg_color {
+    background-color: #a8328f;
+}
