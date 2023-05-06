@@ -1,8 +1,7 @@
-/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable react/display-name */
 
-import { gsap } from 'gsap';
 import React, { forwardRef, useImperativeHandle, useRef } from 'react';
+import { gsap } from 'gsap';
 
 interface CircleProps {
     size: string;
