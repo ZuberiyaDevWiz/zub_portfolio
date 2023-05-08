@@ -2,6 +2,9 @@
 import Card from 'components/common/Card';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { IoMdPhotos } from 'react-icons/io';
+import { CgWebsite } from 'react-icons/cg';
+import { IoAccessibilityOutline } from 'react-icons/io5';
+import { FiSettings, FiMonitor } from 'react-icons/fi';
 
 const Services = () => {
     const serviceArr = [
@@ -16,30 +19,30 @@ const Services = () => {
             desc: 'I will create you responsive design website landing page, which would be modern and eye-catching. contact for more.',
         },
         {
-            icon: <IoMdPhotos />,
+            icon: <FiMonitor />,
             title: 'ECOMMERCE',
             desc: 'I will create professional ECommerce website for you company or your business, for more details please contact.',
         },
         {
-            icon: <IoMdPhotos />,
-            title: 'sfdfsffdsdfffdfsdf',
-            desc: 'fsmm,smd,,mmds,fm,mfma,fmamf',
+            icon: <FiSettings />,
+            title: 'PERFORMANCE OPTIMIZATION',
+            desc: ' I will improve site speed and performance by optimizing images, reducing code size, and implementing other best practices.',
         },
         {
-            icon: <IoMdPhotos />,
-            title: 'sfdfsffdsdfffdfsdf',
-            desc: 'fsmm,smd,,mmds,fm,mfma,fmamf',
+            icon: <IoAccessibilityOutline />,
+            title: 'ACCESSIBILITY',
+            desc: 'I will ensure that a website or application is accessible to users with disabilities, such as those using screen readers.',
         },
         {
-            icon: <IoMdPhotos />,
-            title: 'sfdfsffdsdfffdfsdf',
-            desc: 'fsmm,smd,,mmds,fm,mfma,fmamf',
+            icon: <CgWebsite />,
+            title: 'WEBSITE MAINTAINANCE & UPDATES',
+            desc: 'I will provide ongoing support and maintenance to keep a website up to date and functioning properly.',
         },
     ];
 
     return (
         <>
-            <section className="flex flex-col   h-screen mx-auto pt-20 w-[70%] ">
+            <section className="flex flex-col   h-screen mx-auto pt-20 w-[70%] " id="service">
                 <p className="text-gray-500 font-semibold text-sm">
                     services i offer to my clients
                 </p>

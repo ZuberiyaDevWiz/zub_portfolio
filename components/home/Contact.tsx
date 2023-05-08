@@ -20,8 +20,8 @@ const Contact = () => (
                 Submit
             </button>
         </div>
-        <h1 className="text-5xl text-white font-bold items-center justify-center flex pt-40">
-            Thanks for watching.!
+        <h1 className="tracking-wider italic text-white font-bold items-center justify-center flex pt-40">
+            Build & Designed by <span className="text-[#a832af] pl-2">Zuberiya Fathima</span>
         </h1>
     </section>
 );

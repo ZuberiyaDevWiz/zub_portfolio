@@ -19,15 +19,15 @@ const Hero: FC = () => (
                 />
             </p>
         </div>
-        <div className="absolute font-semibold text_color bottom-5 left-8 animate-bounce space-y-2">
-            {/* <p>S</p>
+        <div className="absolute font-semibold text_color bottom-5 flex flex-col items-center  left-8 animate-bounce space-y-1">
+            <p>S</p>
             <p>C</p>
             <p>R</p>
             <p>O</p>
             <p>L</p>
-            <p>L</p> */}
+            <p>L</p>
 
-            <CgArrowLongDownR className="text-6xl" />
+            <CgArrowLongDownR className="text-6xl pt-3" />
         </div>
         <div className="absolute bottom-5 right-8 space-y-2">
             <FaFacebookSquare className="text-4xl rounded-lg" />

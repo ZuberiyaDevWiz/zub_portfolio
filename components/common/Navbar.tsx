@@ -2,11 +2,14 @@ import { FC } from 'react';
 import { Link } from 'react-scroll';
 
 const Navbar: FC = () => (
-    <nav className="flex  justify-between items-center h-16  px-20 sticky top-0 left-0 ">
+    <nav className="flex  justify-between items-center h-14  px-10 text-lg bg-[#a832af] z-50 rounded-b-md text-black sticky top-0 left-0 ">
         <div />
         <ul className="flex items-center space-x-6 cursor-pointer font-medium ">
             <Link to="about">
                 <li>About </li>
+            </Link>
+            <Link to="service">
+                <li>Services</li>
             </Link>
             <Link to="resume">
                 <li>Resume</li>

@@ -5,6 +5,7 @@ import ExpEdu from './ExpEdu';
 import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
+import CircleApp from './CircleApp';
 
 const Home = () => (
     <div>
@@ -15,6 +16,7 @@ const Home = () => (
         <Skills />
         <Projects />
         <Contact />
+        <CircleApp />
     </div>
 );
 
