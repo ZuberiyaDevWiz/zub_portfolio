@@ -6,16 +6,18 @@ import { FaFacebookSquare, FaTwitterSquare, FaLinkedin } from 'react-icons/fa';
 
 const About: FC = () => (
     <section className="flex flex-col  items-center h-screen w-full py-20 px-20 " id="about">
-        <h1 className=" ">Get to know me</h1>
-        <h1 className="text-4xl py-3 border-b-4 border-b-[#a832af] font-extrabold">About Me</h1>
-        <div className="grid grid-cols-2 gap-x- w-[80%] mx-auto mt-10">
-            <Image src="/profile.jpg" alt="Picture of the author" width={500} height={500} />
+        <h1 className=" text-gray-600">Get to know me</h1>
+        <h1 className="text-4xl py-3 border-b-4 border-b-[#a832af] font-extrabold text-gray-600">
+            About Me
+        </h1>
+        <div className="grid grid-cols-2 gap-x- w-[80%] mx-auto mt-28">
+            <Image src="/fe-avatar.webp" alt="Picture of the author" width={400} height={200} />
             <div>
                 <h3 className="text-xl font-bold text_color py-5">Who am I?</h3>
-                <h2 className=" py-2 border-b-2 border-b-[#a832af]  text-2xl font-extrabold ">
+                <h2 className=" py-2 border-b-2 text-gray-600 border-b-[#a832af]  text-2xl font-extrabold ">
                     I'm Zuberiya Fathima, a Web Designer and Developer
                 </h2>
-                <p className="text-xs py-5 font-medium text-gray-500">
+                <p className="text-xs py-5 font-medium text-gray-300">
                     As a frontend developer in an ecommerce platform, I'm responsible for designing
                     and maintaining the user interface and experience of the ecommerce site or
                     application. My role involves creating and implementing designs, optimizing web
@@ -24,21 +26,21 @@ const About: FC = () => (
                     the success of the platform.
                 </p>
                 <div className="py-5 grid grid-cols-2 gap-y-5  w-[90%] ">
-                    <h5 className="text-sm font-medium text-gray-500">
+                    <h5 className="text-sm font-medium text-gray-300">
                         <span className="font-semibold ">Name :</span> Zuberiya Fathima
                     </h5>
                     <h5 className="text-sm font-medium text_color">
-                        <span className="font-semibold text-gray-500">Email :</span>{' '}
+                        <span className="font-semibold text-gray-300">Email :</span>{' '}
                         zuberiya139@gmail.com
                     </h5>
-                    <h5 className="text-sm font-medium text-gray-500">
+                    <h5 className="text-sm font-medium text-gray-300">
                         <span className="font-semibold ">Date of Birth :</span> 13-03-1999
                     </h5>
-                    <h5 className="text-sm font-medium text-gray-500">
+                    <h5 className="text-sm font-medium text-gray-300">
                         <span className="font-semibold">From :</span> Bangalore, India
                     </h5>
                 </div>
-                <div className="flex gap-x-3 mt-2 text-3xl pb-10">
+                <div className="flex gap-x-3 mt-2 text-3xl pb-10 text-gray-600">
                     <FaFacebookSquare />
                     <FaTwitterSquare />
                     <FaLinkedin />

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 /* eslint-disable react/jsx-key */
 import Card from 'components/common/Card';
 import { AiFillHtml5 } from 'react-icons/ai';
@@ -43,13 +44,13 @@ const Services = () => {
     return (
         <>
             <section className="flex flex-col   h-screen mx-auto pt-20 w-[70%] " id="service">
-                <p className="text-gray-500 font-semibold text-sm">
+                <p className="text-gray-300 font-semibold text-sm">
                     services i offer to my clients
                 </p>
                 <h1 className="text-white text-2xl font-bold pb-10">My Services</h1>
                 <div className="grid grid-cols-3 gap-x-10 gap-y-10">
                     {serviceArr.map((service) => (
-                        <Card icon={service.icon} title={service.title} desc={service.desc} />
+                        <Card icon={service.icon} title={service.title} />
                     ))}
                 </div>
             </section>

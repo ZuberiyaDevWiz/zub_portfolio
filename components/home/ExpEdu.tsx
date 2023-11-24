@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 /* eslint-disable react/jsx-key */
 import Card from 'components/common/Card';
 import Link from 'next/link';
@@ -22,21 +23,19 @@ const ExpEdu = () => {
     ];
     const eduArr = [
         {
-            text: 'ksdksdkajsdkkjsad',
-            title: 'lsdlasdlaskdlaskld',
-            desc: 'lsdalksdlaksdlasd',
+            text: 'B.E in computer science',
+            title: 'Rajiv Gandhi Institute of Technolgy Bangalore',
         },
         {
-            text: 'sldlaskdlsdlas',
-            title: 'lskdlaskdlkasdlkasld',
-            desc: 'lsdlaskdlasdlaslkdkas',
+            text: '2nd PUC PCMB',
+            title: `St. Anne's P.U college for girls Bangalore`,
         },
     ];
 
     return (
         <section className="flex flex-col   h-screen mx-auto pt-16 w-[50%] " id="resume">
             <div className="flex flex-col space-y-1 pb-3 mx-auto ">
-                <h3 className="text-gray-500 text-sm font-semibold">check out my Resume</h3>
+                <h3 className="text-gray-300 text-sm font-semibold">check out my Resume</h3>
                 <h1 className="text-4xl  font-bold text-white mx-auto border-b-4 pb-1 border-b-[#a832af] w-fit">
                     <Link href="/">Resume</Link>
                 </h1>
@@ -44,13 +43,13 @@ const ExpEdu = () => {
             <h1 className="text-2xl text-white font-bold pt-6 ">Experience</h1>
             <div className="grid grid-cols-1 gap-x-10 gap-y-20 pt-6">
                 {expArr.map((exp) => (
-                    <Card text={exp.text} title={exp.title} desc={exp.desc} />
+                    <Card text={exp.text} title={exp.title} />
                 ))}
             </div>
             <h1 className="text-2xl text-white font-bold pt-10 ">Education</h1>
             <div className="grid grid-cols-2 gap-x-10 gap-y-20 pt-6">
                 {eduArr.map((edu) => (
-                    <Card text={edu.text} title={edu.title} desc={edu.desc} />
+                    <Card text={edu.text} title={edu.title} />
                 ))}
             </div>
         </section>

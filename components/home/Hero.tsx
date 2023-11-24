@@ -6,9 +6,9 @@ import Typed from 'react-typed';
 
 const Hero: FC = () => (
     <main className="flex flex-col relative justify-center items-center h-[90vh] w-full ">
-        <h1 className="text-[4.5rem] font-extrabold ">Zuberiya Fathima</h1>
+        <h1 className="text-[4.5rem] font-extrabold text-gray-600">Zuberiya Fathima</h1>
         <div className=" space-x-3 items-center font-extrabold mt-4 flex">
-            <span className="text-3xl">I'm a </span>
+            <span className="text-3xl text-gray-600">I'm a </span>
             <p>
                 <Typed
                     strings={['FRONTEND DEVELOPER', 'WEB DESIGNER', 'FULLSTACK DEVELOPER']}
@@ -29,7 +29,7 @@ const Hero: FC = () => (
 
             <CgArrowLongDownR className="text-6xl pt-3" />
         </div>
-        <div className="absolute bottom-5 right-8 space-y-2">
+        <div className="absolute bottom-5 right-8 space-y-2 text-gray-700">
             <FaFacebookSquare className="text-4xl rounded-lg" />
             <FaTwitterSquare className="text-4xl rounded-lg" />
             <FaLinkedin className="text-4xl rounded-lg" />

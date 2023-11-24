@@ -78,12 +78,12 @@ const SkillsArr = [
 const Skills = () => (
     <section className="mx-auto pt-40 w-[70%] " id="skills">
         <div className="flex flex-col space-y-2">
-            <p className="text-sm  text-gray-500 font-semibold">
+            <p className="text-sm  text-gray-300 font-semibold">
                 My level of knowledge in some tools
             </p>
             <h1 className="text-white text-2xl font-bold pb-14">My Skills</h1>
         </div>
-        <div className="grid grid-cols-2 gap-10 ">
+        <div className="grid grid-cols-2 gap-10 text-gray-200">
             {SkillsArr.map((skill) => (
                 <SkillField
                     title={skill.title}

@@ -1,7 +1,7 @@
 const Contact = () => (
-    <section className="flex flex-col   h-screen mx-auto pt-10 w-[70%] " id="contact">
+    <section className="flex flex-col   h-screen mx-auto w-[70%] " id="contact">
         <div className="flex flex-col space-y-1 pb-3 mx-auto ">
-            <h3 className="text-gray-500 text-sm font-semibold">Feel free to contact me anytime</h3>
+            <h3 className="text-gray-300 text-sm font-semibold">Feel free to contact me anytime</h3>
             <h1 className="text-4xl  font-bold text-white mx-auto border-b-4 pb-2 border-b-[#a832af] w-fit">
                 Get In Touch
             </h1>
